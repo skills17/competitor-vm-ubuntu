@@ -29,6 +29,7 @@ install_feature mysql
 install_feature phpmyadmin
 install_feature nodejs
 install_feature vmware
+install_feature chrome
 
 # install editors and other ui tools
 install_feature zeal

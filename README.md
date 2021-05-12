@@ -40,6 +40,8 @@ In that case, make sure to disable the [`vmware` feature](#features).
     * Visual Studio Code
     * Sublime (Wait until all extensions have been installed, a restart may be required. Check it with the command `Package Control: List Packages`)
     * Atom
+    * Google Chrome
+    * Firefox
 
 ## Export
 
@@ -77,6 +79,7 @@ curl -sSL https://raw.githubusercontent.com/skills17/competitor-vm-ubuntu/master
 | `sublime` | latest | [Sublime Text](https://www.sublimetext.com/). |
 | `vim` | latest | VIM. |
 | `atom` | latest | [Atom](https://atom.io/). |
+| `chrome` | latest | [Google Chrome](https://www.google.com/chrome/). |
 
 ## License
 
