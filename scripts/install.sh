@@ -3,6 +3,13 @@
 set -e
 
 SETUP_DIR="$HOME/.setup"
+TASKS_DIR="$HOME/ICTT17"
+
+# require root privileges
+if [[ $(id -u) -ne 0 ]]; then
+  echo "[Error] Please run the install script as root"
+  exit 1
+fi
 
 # update packages & distro
 apt-get update
@@ -15,6 +22,7 @@ git clone https://github.com/skills17/competitor-vm-ubuntu.git "$SETUP_DIR"
 
 # install features
 source "$SETUP_DIR/features/install.sh"
+install_feature apache
 
 # remove setup directory again
 rm -rf "$SETUP_DIR"
