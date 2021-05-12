@@ -42,6 +42,7 @@ In that case, make sure to disable the [`vmware` feature](#features).
     * Atom
     * Google Chrome
     * Firefox
+    * PhpStorm
 
 ## Export
 
@@ -80,6 +81,7 @@ curl -sSL https://raw.githubusercontent.com/skills17/competitor-vm-ubuntu/master
 | `vim` | latest | VIM. |
 | `atom` | latest | [Atom](https://atom.io/). |
 | `chrome` | latest | [Google Chrome](https://www.google.com/chrome/). |
+| `phpstorm` | latest | [PhpStorm](https://www.jetbrains.com/phpstorm/). |
 
 ## License
 

@@ -37,6 +37,7 @@ install_feature vscode
 install_feature sublime
 install_feature vim
 install_feature atom
+install_feature phpstorm
 
 # remove setup directory again
 rm -rf "$SETUP_DIR"
