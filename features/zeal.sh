@@ -14,3 +14,5 @@ echo ""
 echo "       Press any key to continue"
 read -n 1 -s
 apt-get install --yes zeal
+mv /root/.local/share/Zeal "/home/$USER/.local/share/"
+chown -R $USER:$USER "/home/$USER/.local/share/Zeal"
