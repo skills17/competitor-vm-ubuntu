@@ -39,6 +39,7 @@ install_feature vim
 install_feature atom
 install_feature phpstorm
 install_feature eclipse
+install_feature gimp
 
 # remove setup directory again
 rm -rf "$SETUP_DIR"

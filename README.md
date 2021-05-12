@@ -44,6 +44,7 @@ In that case, make sure to disable the [`vmware` feature](#features).
     * Firefox
     * PhpStorm
     * Eclipse
+    * Gimp
 
 ## Export
 
@@ -84,6 +85,7 @@ curl -sSL https://raw.githubusercontent.com/skills17/competitor-vm-ubuntu/master
 | `chrome` | latest | [Google Chrome](https://www.google.com/chrome/). |
 | `phpstorm` | latest | [PhpStorm](https://www.jetbrains.com/phpstorm/). |
 | `eclipse` | latest | [Eclipse IDE for PHP Developers](https://www.eclipse.org/downloads/packages/release/2021-03/r/eclipse-ide-php-developers). |
+| `gimp` | latest | [GIMP](https://www.gimp.org/). |
 
 ## License
 
