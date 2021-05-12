@@ -30,6 +30,9 @@ install_feature phpmyadmin
 install_feature nodejs
 install_feature vmware
 
+# install editors and other ui tools
+install_feature zeal
+
 # remove setup directory again
 rm -rf "$SETUP_DIR"
 

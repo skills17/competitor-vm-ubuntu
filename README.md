@@ -27,12 +27,13 @@ In that case, make sure to disable the [`vmware` feature](#features).
         * Username: `student`
         * Password: `student`
         * Hostname: `ICTT17`
-        * Auto login
+        * Auto logink
 1. After the installation is finished, either disable the features in the prompt (do not send help data, no cloud login, etc.) or skip them
 1. Install the VMWare Tools
     * For VMWare Workstation: `VM` > `Install VMWare Tools`
 1. Run this installation script with the following command. Please note that, by default, all features will be installed. It is possible do disable some of them. See more in the [features](#features) section.
     * `curl -sSL https://raw.githubusercontent.com/skills17/competitor-vm-ubuntu/master/scripts/install.sh | sudo -E bash -s`
+    * During some installation steps, manual interaction is required. In this case, the answers you have to provide are listed before.
 
 ## Export
 
@@ -65,6 +66,7 @@ curl -sSL https://raw.githubusercontent.com/skills17/competitor-vm-ubuntu/master
 | `phpmyadmin` | latest | Installs phpmyadmin with apache2 and configures an auto login. |
 | `nodejs` | 14 | Installs nodejs and npm. |
 | `vmware` | - | Installs the VMWare Tools. |
+| `zeal` | latest | [Zeal](https://zealdocs.org/) offline documentations. |
 
 ## License
 
