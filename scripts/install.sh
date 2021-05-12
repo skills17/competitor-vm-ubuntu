@@ -22,6 +22,7 @@ git clone https://github.com/skills17/competitor-vm-ubuntu.git "$SETUP_DIR"
 
 # install features
 source "$SETUP_DIR/features/install.sh"
+install_feature system
 install_feature apache
 
 # remove setup directory again
