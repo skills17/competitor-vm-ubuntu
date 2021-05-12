@@ -6,6 +6,6 @@ echo "phpmyadmin phpmyadmin/reconfigure-webserver multiselect apache2" | debconf
 DEBIAN_FRONTEND=noninteractive apt-get install --yes phpmyadmin
 
 # configure phpmyadmin
-chown $USER:$USER /var/lib/phpmyadmin/tmp
+chown $SUDO_UID:$SUDO_GID /var/lib/phpmyadmin/tmp
 cp "$SETUP_DIR/configs/phpmyadmin/config.trade17.php" /etc/phpmyadmin/conf.d/config.trade17.php
-chown $USER:$USER /etc/phpmyadmin/conf.d/config.trade17.php
+chown $SUDO_UID:$SUDO_GID /etc/phpmyadmin/conf.d/config.trade17.php

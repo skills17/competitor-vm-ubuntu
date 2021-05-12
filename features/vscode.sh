@@ -6,5 +6,5 @@ apt-get install --yes /tmp/vscode.deb
 rm /tmp/vscode.deb
 
 # install extensions
-sudo -u $USER code --install-extension felixfbecker.php-intellisense
-sudo -u $USER code --install-extension dbaeumer.vscode-eslint
+sudo -u $SUDO_USER code --install-extension felixfbecker.php-intellisense
+sudo -u $SUDO_USER code --install-extension dbaeumer.vscode-eslint

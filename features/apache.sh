@@ -16,10 +16,10 @@ sed -i "s|www-data|student|g" /etc/apache2/envvars
 # copy initial index.html to the document root
 if [[ ! -d "$TASKS_DIR" ]]; then
   mkdir "$TASKS_DIR"
-  chown $USER:$USER "$TASKS_DIR"
+  chown $SUDO_UID:$SUDO_GID "$TASKS_DIR"
 fi
 
 cp "$SETUP_DIR/configs/apache/index.html" "$TASKS_DIR/"
-chown $USER:$USER "$TASKS_DIR/index.html"
+chown $SUDO_UID:$SUDO_GID "$TASKS_DIR/index.html"
 
 service apache2 restart
