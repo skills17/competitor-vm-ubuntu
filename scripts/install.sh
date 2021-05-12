@@ -32,6 +32,7 @@ install_feature vmware
 
 # install editors and other ui tools
 install_feature zeal
+install_feature vscode
 
 # remove setup directory again
 rm -rf "$SETUP_DIR"
