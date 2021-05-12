@@ -25,6 +25,7 @@ source "$SETUP_DIR/features/install.sh"
 install_feature system
 install_feature apache
 install_feature php
+install_feature mysql
 
 # remove setup directory again
 rm -rf "$SETUP_DIR"
