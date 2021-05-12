@@ -27,6 +27,7 @@ install_feature apache
 install_feature php
 install_feature mysql
 install_feature phpmyadmin
+install_feature nodejs
 
 # remove setup directory again
 rm -rf "$SETUP_DIR"
