@@ -74,6 +74,7 @@ curl -sSL https://raw.githubusercontent.com/skills17/competitor-vm-ubuntu/master
 | `zeal` | latest | [Zeal](https://zealdocs.org/) offline documentations. |
 | `vscode` | latest | [Visual Studio Code](https://code.visualstudio.com/). |
 | `sublime` | latest | [Sublime Text](https://www.sublimetext.com/). |
+| `vim` | latest | VIM. |
 
 ## License
 
