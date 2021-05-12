@@ -26,3 +26,6 @@ install_feature apache
 
 # remove setup directory again
 rm -rf "$SETUP_DIR"
+
+# reboot the system
+shutdown -r now
