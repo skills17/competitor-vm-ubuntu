@@ -43,6 +43,7 @@ In that case, make sure to disable the [`vmware` feature](#features).
     * Google Chrome
     * Firefox
     * PhpStorm
+    * Eclipse
 
 ## Export
 
@@ -82,6 +83,7 @@ curl -sSL https://raw.githubusercontent.com/skills17/competitor-vm-ubuntu/master
 | `atom` | latest | [Atom](https://atom.io/). |
 | `chrome` | latest | [Google Chrome](https://www.google.com/chrome/). |
 | `phpstorm` | latest | [PhpStorm](https://www.jetbrains.com/phpstorm/). |
+| `eclipse` | latest | [Eclipse IDE for PHP Developers](https://www.eclipse.org/downloads/packages/release/2021-03/r/eclipse-ide-php-developers). |
 
 ## License
 

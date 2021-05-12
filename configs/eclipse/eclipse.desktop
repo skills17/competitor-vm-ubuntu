@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Eclipse (PHP)
+Comment=Eclipse
+Exec=/opt/eclipse/eclipse
+Terminal=false
+Type=Application
+Icon=/opt/eclipse/icon.xpm
+Categories=TextEditor;Development;IDE;
