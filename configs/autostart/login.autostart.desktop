@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=Trade 17 Autostart
+Exec=bash /home/--user--/.local/share/skills17/autostart.sh
+Icon=system-run
+X-GNOME-Autostart-enabled=true

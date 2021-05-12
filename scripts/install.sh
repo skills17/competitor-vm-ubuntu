@@ -2,14 +2,14 @@
 
 set -e
 
-SETUP_DIR="$HOME/.setup"
-TASKS_DIR="$HOME/ICTT17"
-
 # require root privileges
 if [[ $(id -u) -ne 0 ]]; then
   echo "[Error] Please run the install script as root"
   exit 1
 fi
+
+SETUP_DIR="/home/$SUDO_USER/.setup"
+TASKS_DIR="/home/$SUDO_USER/ICTT17"
 
 # update packages & distro
 apt-get update
@@ -21,7 +21,7 @@ apt-get install --yes git
 git clone https://github.com/skills17/competitor-vm-ubuntu.git "$SETUP_DIR"
 
 # install features
-source "$SETUP_DIR/features/install.sh"
+source "$SETUP_DIR/scripts/feature.sh"
 install_feature system
 install_feature apache
 install_feature php
@@ -29,6 +29,7 @@ install_feature mysql
 install_feature phpmyadmin
 install_feature nodejs
 install_feature vmware
+install_feature autostart
 install_feature chrome
 
 # install editors and other ui tools

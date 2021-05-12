@@ -45,6 +45,7 @@ In that case, make sure to disable the [`vmware` feature](#features).
     * PhpStorm
     * Eclipse
     * Gimp
+    * Terminal
 
 ## Export
 
@@ -76,6 +77,7 @@ curl -sSL https://raw.githubusercontent.com/skills17/competitor-vm-ubuntu/master
 | `mysql` | latest | Installs mysql and sets the root password to `''` (empty string). |
 | `phpmyadmin` | latest | Installs phpmyadmin with apache2 and configures an auto login. |
 | `nodejs` | 14 | Installs nodejs and npm. |
+| `autostart` | - | Installs autostart scripts. All `.sh` files in `~/.local/share/skills17/autostart/` will get executed on login. By default, it opens `http://localhost` in a browser. |
 | `vmware` | - | Installs the VMWare Tools. |
 | `zeal` | latest | [Zeal](https://zealdocs.org/) offline documentations. |
 | `vscode` | latest | [Visual Studio Code](https://code.visualstudio.com/). |
