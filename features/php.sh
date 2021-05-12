@@ -11,3 +11,5 @@ apt-get install --yes \
   php8.0 \
   php8.0-cli \
   php8.0-xml
+
+service apache2 restart

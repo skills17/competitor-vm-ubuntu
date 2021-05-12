@@ -21,3 +21,5 @@ fi
 
 cp "$SETUP_DIR/configs/apache/index.html" "$TASKS_DIR/"
 chown $USER:$USER "$TASKS_DIR/index.html"
+
+service apache2 restart
