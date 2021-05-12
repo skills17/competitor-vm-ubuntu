@@ -1,0 +1,11 @@
+{
+    "installed_packages":
+    [
+        "Emmet",
+        "ESLint",
+        "Package Control",
+        "SublimeCodeIntel",
+        "SublimeLinter-php",
+        "Sublime​Linter"
+    ]
+}
