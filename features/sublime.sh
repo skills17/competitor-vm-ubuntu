@@ -17,6 +17,6 @@ fi
 
 cp "$SETUP_DIR/configs/sublime/Package Control.sublime-settings" "$HOME/.config/sublime-text-3/Packages/User/Package Control.sublime-settings"
 chown $USER:$USER "$HOME/.config/sublime-text-3/Packages/User/Package Control.sublime-settings"
-curl -sSL -o "$HOME/.config/sublime-text-3/Installed Packages/Package Control.sublime-package" "https://packagecontrol.io/Package%20Control.sublime-package"
+curl -L -o "$HOME/.config/sublime-text-3/Installed Packages/Package Control.sublime-package" "https://packagecontrol.io/Package%20Control.sublime-package"
 chown $USER:$USER "$HOME/.config/sublime-text-3/Installed Packages/Package Control.sublime-package"
 sudo -u $USER pip3 install --upgrade --pre CodeIntel

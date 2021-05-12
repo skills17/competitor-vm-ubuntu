@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # install vscode
-curl -sSL -o /tmp/vscode.deb "https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64"
+curl -L -o /tmp/vscode.deb "https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64"
 apt-get install --yes /tmp/vscode.deb
 rm /tmp/vscode.deb
 
