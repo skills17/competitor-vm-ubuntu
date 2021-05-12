@@ -35,6 +35,7 @@ install_feature zeal
 install_feature vscode
 install_feature sublime
 install_feature vim
+install_feature atom
 
 # remove setup directory again
 rm -rf "$SETUP_DIR"
