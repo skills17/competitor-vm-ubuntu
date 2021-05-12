@@ -36,9 +36,10 @@ In that case, make sure to disable the [`vmware` feature](#features).
     * During some installation steps, manual interaction is required. In this case, the answers you have to provide are listed before.
     * After everything is installed, the system will reboot.
 1. Open all applications once (to initialize, disable telemetry, start trial version, ...) and move them to the taskbar/favorites. Also, check if all extensions have been installed correctly.
-    * Zeal
+    * Zeal (Install docset for PHP, MySQL, JavaScript, CSS, HTML)
     * Visual Studio Code
     * Sublime (Wait until all extensions have been installed, a restart may be required. Check it with the command `Package Control: List Packages`)
+    * Atom
 
 ## Export
 
@@ -59,7 +60,7 @@ Each of the features can be disabled by specifying them during the installation 
 For example, the following command will skip phpmyadmin but install all other features:
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/skills17/competitor-vm-ubuntu/master/scripts/install.sh | sudo -E bash -s --phpmyadmin=false
+curl -sSL https://raw.githubusercontent.com/skills17/competitor-vm-ubuntu/master/scripts/install.sh | sudo -E bash -s -- --phpmyadmin=false
 ```
 
 | Feature | Version | Description |
@@ -75,6 +76,7 @@ curl -sSL https://raw.githubusercontent.com/skills17/competitor-vm-ubuntu/master
 | `vscode` | latest | [Visual Studio Code](https://code.visualstudio.com/). |
 | `sublime` | latest | [Sublime Text](https://www.sublimetext.com/). |
 | `vim` | latest | VIM. |
+| `atom` | latest | [Atom](https://atom.io/). |
 
 ## License
 
