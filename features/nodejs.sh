@@ -6,3 +6,6 @@ apt-get install --yes nodejs
 
 # install global packages
 npm install --global eslint
+
+# ensure correct permissions
+chown -R $SUDO_UID:$SUDO_GID "/home/$SUDO_USER/.config/configstore"
