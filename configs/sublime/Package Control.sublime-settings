@@ -6,6 +6,7 @@
         "Package Control",
         "SublimeCodeIntel",
         "SublimeLinter-php",
-        "Sublime​Linter"
+        "SublimeLinter",
+        "PHP Completions Kit"
     ]
 }
