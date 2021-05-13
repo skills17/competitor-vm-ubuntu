@@ -42,7 +42,7 @@ In that case, make sure to disable the [`vmware` feature](#features).
     * Atom
     * Google Chrome
     * Firefox
-    * PhpStorm
+    * PhpStorm (Set PHP Language Level to 8.0)
     * Eclipse
     * Gimp
     * Terminal
