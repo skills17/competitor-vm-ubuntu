@@ -8,8 +8,8 @@ if [[ $(id -u) -ne 0 ]]; then
   exit 1
 fi
 
-SETUP_DIR="/home/$SUDO_USER/.setup"
-TASKS_DIR="/home/$SUDO_USER/ICTT17"
+SETUP_DIR="$HOME/.setup"
+TASKS_DIR="$HOME/ICTT17"
 
 # update packages & distro
 apt-get update
