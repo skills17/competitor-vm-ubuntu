@@ -46,6 +46,7 @@ In that case, make sure to disable the [`vmware` feature](#features).
     * Eclipse
     * Gimp
     * Terminal
+1. If you get asked to set a keyring password, use an empty password. Otherwise, it will always ask for this password after statup when auto-login is enabled.
 
 ## Export
 
