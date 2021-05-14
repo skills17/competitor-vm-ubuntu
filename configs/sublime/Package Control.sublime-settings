@@ -7,6 +7,8 @@
         "SublimeCodeIntel",
         "SublimeLinter-php",
         "SublimeLinter",
-        "PHP Completions Kit"
+        "PHP Completions Kit",
+        "LSP",
+        "LSP-typescript"
     ]
 }
