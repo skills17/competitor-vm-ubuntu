@@ -13,7 +13,7 @@ sudo -u $SUDO_USER code --install-extension dbaeumer.vscode-eslint
 cd $HOME/.vscode/extensions/felixfbecker.php-intellisense-* && sudo -u $SUDO_USER composer update
 
 # copy settings
-if [[ ! -d "$HOME/.config/Code/User" ]];
+if [[ ! -d "$HOME/.config/Code/User" ]]; then
   sudo -u $SUDO_USER mkdir -p "$HOME/.config/Code/User"
 fi
 sudo -u $SUDO_USER cp -f "$SETUP_DIR/configs/vscode/settings.json" "$HOME/.config/Code/User/settings.json"
