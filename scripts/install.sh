@@ -28,7 +28,6 @@ install_feature php
 install_feature mysql
 install_feature phpmyadmin
 install_feature nodejs
-install_feature vmware
 install_feature autostart
 install_feature chrome
 
