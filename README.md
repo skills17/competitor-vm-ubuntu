@@ -32,6 +32,7 @@ However, with some small adjustments, they can also be applied to other virtuali
 1. After the installation is finished, either disable the features in the prompt (do not send help data, no cloud login, etc.) or skip them
 1. Ensure the VMWare Tools are installed by executing `vmware-toolbox-cmd -v`
 1. Run this installation script with the following command. Please note that, by default, all features will be installed. It is possible do disable some of them. See more in the [features](#features) section.
+    * `sudo apt-get install --yes curl`
     * `curl -sSL https://raw.githubusercontent.com/skills17/competitor-vm-ubuntu/master/scripts/install.sh | sudo -E bash -s`
     * After everything is installed, the system will reboot.
 1. Open all applications once (to initialize, disable telemetry, start trial version, ...) and move them to the taskbar/favorites. Also, check if all extensions have been installed correctly.
