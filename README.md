@@ -13,7 +13,6 @@ Installation instructions to create an Ubuntu VM for competitors.
 
 The following installation instructions assume that VMWare is used as the virtualization software.
 However, with some small adjustments, they can also be applied to other virtualization solutions, such as VirtualBox or Parallels.
-In that case, make sure to disable the [`vmware` feature](#features).
 
 1. Create the virtual machine in VMWareWorkstation (custom, default options if not specified)
     * Custom installation
@@ -22,15 +21,16 @@ In that case, make sure to disable the [`vmware` feature](#features).
     * Memory 8GB, 1 CPU/2 Core
     * disable "Accelerate 3D graphics"
 1. Start the Ubuntu installation (default options if not specified)
+    * Keyboard layout: `Switzerland - German (Switzerland, no dead keys)`
     * Minimal installation
     * Any user configuration is possible. Use the following one if it is not specified otherwise:
         * Username: `student`
         * Password: `student`
         * Hostname: `ICTT17`
-        * Auto logink
+        * Auto login
+    * When you get asked to install the VMWare Tools, wait until the installation is complete and you are logged in. Then, install them.
 1. After the installation is finished, either disable the features in the prompt (do not send help data, no cloud login, etc.) or skip them
-1. Install the VMWare Tools
-    * For VMWare Workstation: `VM` > `Install VMWare Tools`
+1. Ensure the VMWare Tools are installed by executing `vmware-toolbox-cmd -v`
 1. Run this installation script with the following command. Please note that, by default, all features will be installed. It is possible do disable some of them. See more in the [features](#features) section.
     * `curl -sSL https://raw.githubusercontent.com/skills17/competitor-vm-ubuntu/master/scripts/install.sh | sudo -E bash -s`
     * After everything is installed, the system will reboot.
@@ -78,7 +78,6 @@ curl -sSL https://raw.githubusercontent.com/skills17/competitor-vm-ubuntu/master
 | `php` | 8.0 | Installs the PHP cli and apache2 mod, as well as composer. |
 | `phpmyadmin` | latest | Installs phpmyadmin with apache2 and configures an auto login. |
 | `system` | - | Performs some system settings, such as disabling the lock screen & screensaver. |
-| `vmware` | - | Installs the VMWare Tools. |
 | | | |
 | `atom` | latest | [Atom](https://atom.io/). |
 | `chrome` | latest | [Google Chrome](https://www.google.com/chrome/). |
