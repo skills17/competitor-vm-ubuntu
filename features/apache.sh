@@ -22,4 +22,6 @@ fi
 cp "$SETUP_DIR/configs/apache/index.html" "$TASKS_DIR/"
 chown $SUDO_UID:$SUDO_GID "$TASKS_DIR/index.html"
 
-service apache2 restart
+if [[ "$START_SERVICES" != "false" ]]; then
+  service apache2 restart
+fi

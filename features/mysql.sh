@@ -3,6 +3,9 @@
 # install mysql
 apt-get install --yes mysql-server
 
+# start service (not disableable as the next command depends on it)
+service mysql start
+
 # configure mysql (as in mysql_secure_installation)
 mysql --user=root <<EOF
   DELETE FROM mysql.user WHERE User='';

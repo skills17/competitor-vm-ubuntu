@@ -16,4 +16,6 @@ curl -sSL https://getcomposer.org/installer -o /tmp/composer-setup.php
 php /tmp/composer-setup.php --install-dir=/usr/local/bin --filename=composer
 rm /tmp/composer-setup.php
 
-service apache2 restart
+if [[ "$START_SERVICES" != "false" ]]; then
+  service apache2 restart
+fi
