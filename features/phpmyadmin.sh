@@ -1,8 +1,6 @@
 #!/bin/bash
 
 # install phpmyadmin
-add-apt-repository --yes ppa:phpmyadmin/ppa
-apt-get update
 echo "phpmyadmin phpmyadmin/dbconfig-install boolean true" | debconf-set-selections
 echo "phpmyadmin phpmyadmin/reconfigure-webserver multiselect apache2" | debconf-set-selections
 DEBIAN_FRONTEND=noninteractive apt-get install --yes phpmyadmin
