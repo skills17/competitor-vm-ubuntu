@@ -6,10 +6,10 @@ add-apt-repository --yes ppa:ondrej/php
 apt-get update
 apt-get install --yes \
   curl \
-  libapache2-mod-php8.0 \
-  php8.0 \
-  php8.0-cli \
-  php8.0-xml
+  libapache2-mod-php8.1 \
+  php8.1 \
+  php8.1-cli \
+  php8.1-xml
 
 # install composer
 curl -sSL https://getcomposer.org/installer -o /tmp/composer-setup.php
