@@ -8,4 +8,5 @@ apt-get install --yes nodejs
 npm install --global eslint
 
 # ensure correct permissions
+mkdir -p "$HOME/.config/configstore"
 chown -R $SUDO_UID:$SUDO_GID "$HOME/.config/configstore"
