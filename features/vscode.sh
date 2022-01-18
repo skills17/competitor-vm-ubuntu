@@ -6,11 +6,8 @@ apt-get install --yes /tmp/vscode.deb
 rm /tmp/vscode.deb
 
 # install extensions
-sudo -u $SUDO_USER code --install-extension felixfbecker.php-intellisense
+sudo -u $SUDO_USER code --install-extension bmewburn.vscode-intelephense-client
 sudo -u $SUDO_USER code --install-extension dbaeumer.vscode-eslint
-
-# update the php language server to work with 8.0
-cd $HOME/.vscode/extensions/felixfbecker.php-intellisense-* && sudo -u $SUDO_USER composer update
 
 # copy settings
 if [[ ! -d "$HOME/.config/Code/User" ]]; then
