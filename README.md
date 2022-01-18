@@ -28,7 +28,6 @@ However, with some small adjustments, they can also be applied to other virtuali
         * Password: `student`
         * Hostname: `ICTT17`
         * Auto login
-    * When you get asked to install the VMWare Tools, wait until the installation is complete and you are logged in. Then, install them.
 1. After the installation is finished, either disable the features in the prompt (do not send help data, no cloud login, etc.) or skip them
 1. Ensure the VMWare Tools are installed by executing `vmware-toolbox-cmd -v`
 1. Run this installation script with the following command. Please note that, by default, all features will be installed. It is possible do disable some of them. See more in the [features](#features) section.
@@ -75,10 +74,11 @@ curl -sSL https://raw.githubusercontent.com/skills17/competitor-vm-ubuntu/master
 | `apache` | 2 | Installs apache2 with the DocumentRoot pointing to `/home/$USER/ICTT17`. |
 | `autostart` | - | Installs autostart scripts. All `.sh` files in `~/.local/share/skills17/autostart/` will get executed on login. By default, it opens `http://localhost` in a browser. |
 | `mysql` | latest | Installs mysql and sets the root password to `''` (empty string). |
-| `nodejs` | 14 | Installs nodejs and npm. |
-| `php` | 8.0 | Installs the PHP cli and apache2 mod, as well as composer. |
+| `nodejs` | 16 | Installs nodejs and npm. |
+| `php` | 8.1 | Installs the PHP cli and apache2 mod, as well as composer. |
 | `phpmyadmin` | latest | Installs phpmyadmin with apache2 and configures an auto login. |
 | `system` | - | Performs some system settings, such as disabling the lock screen & screensaver. |
+| `vmware-tools` | - | Installs the VMware tools. |
 | | | |
 | `atom` | latest | [Atom](https://atom.io/). |
 | `chrome` | latest | [Google Chrome](https://www.google.com/chrome/). |

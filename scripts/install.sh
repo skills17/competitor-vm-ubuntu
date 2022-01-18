@@ -23,6 +23,7 @@ git clone https://github.com/skills17/competitor-vm-ubuntu.git "$SETUP_DIR"
 # install features
 source "$SETUP_DIR/scripts/feature.sh"
 install_feature system
+install_feature vmware-tools
 install_feature apache
 install_feature php
 install_feature mysql
