@@ -48,7 +48,7 @@ However, with some small adjustments, they can also be applied to other virtuali
     * PhpStorm (Set PHP Language Level to 8.1)
     * Sublime (Wait until all extensions have been installed, a restart may be required. Check it with the command `Package Control: List Packages` and also check if the PHP intellisense is working)
     * Terminal
-    * Visual Studio Code (Go to extensions -> search for `@buildin php` and disable `PHP Language Features`)
+    * Visual Studio Code (Go to extensions -> search for `@builtin php` and disable `PHP Language Features`)
     * Zeal (Install docset for PHP, MySQL, JavaScript, CSS, HTML)
 1. If you get asked to set a keyring password, use an empty password. Otherwise, it will always ask for this password after statup when auto-login is enabled.
 
