@@ -59,8 +59,8 @@ To export the VM, follow these steps.
 1. Clear the history and shutdown the machine
     * `cat /dev/null > ~/.bash_history && history -c && shutdown -h now`
 1. Remove all CD-Roms (because of compatibility issues)
-1. Defragment the disk
-1. Reclaim unused space
+1. Defragment the disk (Settings -> Options -> Hard Disk -> Defragment Disk)
+1. Reclaim unused space (Settings -> Options -> Hard Disk -> Compact Disk)
 1. Go to "Export Virtual Machine to OVF"
 1. Choose a file name and use **.ova** as the file extension
 
