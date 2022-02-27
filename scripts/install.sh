@@ -42,6 +42,7 @@ install_feature phpstorm
 install_feature webstorm
 install_feature eclipse
 install_feature gimp
+install_feature postman
 
 # remove setup directory again
 rm -rf "$SETUP_DIR"
