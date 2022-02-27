@@ -46,6 +46,7 @@ However, with some small adjustments, they can also be applied to other virtuali
     * Gimp
     * Google Chrome
     * PhpStorm (Set PHP Language Level to 8.1)
+    * Postman
     * Sublime (Wait until all extensions have been installed, a restart may be required. Check it with the command `Package Control: List Packages` and also check if the PHP intellisense is working)
     * Terminal
     * Visual Studio Code (Go to extensions -> search for `@builtin php` and disable `PHP Language Features`)
@@ -90,6 +91,7 @@ curl -sSL https://raw.githubusercontent.com/skills17/competitor-vm-ubuntu/master
 | `eclipse` | latest | [Eclipse IDE for PHP Developers](https://www.eclipse.org/downloads/packages/release/2021-03/r/eclipse-ide-php-developers). |
 | `gimp` | latest | [GIMP](https://www.gimp.org/). |
 | `phpstorm` | latest | [PhpStorm](https://www.jetbrains.com/phpstorm/). |
+| `postman` | latest | [Postman](https://www.postman.com/). |
 | `sublime` | latest | [Sublime Text](https://www.sublimetext.com/). |
 | `vim` | latest | [VIM](https://www.vim.org/). |
 | `vscode` | latest | [Visual Studio Code](https://code.visualstudio.com/). |
