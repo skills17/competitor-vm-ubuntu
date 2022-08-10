@@ -12,4 +12,4 @@ sudo -u $SUDO_USER apm install atom-autocomplete-php
 sudo -u $SUDO_USER apm install atom-ternjs
 sudo -u $SUDO_USER apm install linter
 sudo -u $SUDO_USER apm install linter-php
-sudo -u $SUDO_USER apm install linter-eslint
+sudo -u $SUDO_USER apm install linter-eslint-node
