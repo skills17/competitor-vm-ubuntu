@@ -16,6 +16,6 @@ mkdir -p /usr/share/phpmyadmin/
 wget https://www.phpmyadmin.net/downloads/phpMyAdmin-latest-english.tar.gz -O /tmp/phpmyadmin.tar.gz
 tar xzf /tmp/phpmyadmin.tar.gz -C /tmp
 mv /tmp/phpMyAdmin-*/* /usr/share/phpmyadmin
-sed -i -r "s/('TEMP_DIR'\s*,)[^\)]*/\1 '\/var\/lib\/phpmyadmin\/tmp\/'/" /usr/share/phpmyadmin/libraries/vendor_config.php
-sed -i -r "s/('CONFIG_DIR'\s*,)[^\)]*/\1 '\/etc\/phpmyadmin\/'/" /usr/share/phpmyadmin/libraries/vendor_config.php
+sed -i -r "s/('tempDir'\s*=>)[^,]*/\1 '\/var\/lib\/phpmyadmin\/tmp\/'/" /usr/share/phpmyadmin/libraries/vendor_config.php
+sed -i -r "s/('configFile'\s*=>)[^,]*/\1 '\/etc\/phpmyadmin\/config.inc.php'/" /usr/share/phpmyadmin/libraries/vendor_config.php
 rm /tmp/phpmyadmin.tar.gz
