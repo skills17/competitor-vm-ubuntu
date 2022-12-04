@@ -40,16 +40,15 @@ However, with some small adjustments, they can also be applied to other virtuali
     * `curl -sSL https://raw.githubusercontent.com/skills17/competitor-vm-ubuntu/master/scripts/install.sh | sudo -E bash -s`
     * After everything is installed, the system will reboot.
 1. Open all applications once (to initialize, disable telemetry, start trial version, ...) and move them to the taskbar/favorites. Also, check if all extensions have been installed correctly.
-    * Atom
-    * Eclipse
     * Firefox
     * Gimp
     * Google Chrome
+    * PhpMyAdmin
     * PhpStorm (Set PHP Language Level to 8.1)
     * Postman
-    * Sublime (Wait until all extensions have been installed, a restart may be required. Check it with the command `Package Control: List Packages` and also check if the PHP intellisense is working)
     * Terminal
     * Visual Studio Code (Go to extensions -> search for `@builtin php` and disable `PHP Language Features`)
+    * WebStorm
     * Zeal (Install docset for PHP, MySQL, JavaScript, CSS, HTML)
 1. If you get asked to set a keyring password, use an empty password. Otherwise, it will always ask for this password after statup when auto-login is enabled.
 
@@ -80,19 +79,16 @@ curl -sSL https://raw.githubusercontent.com/skills17/competitor-vm-ubuntu/master
 | `apache` | 2 | Installs apache2 with the DocumentRoot pointing to `/home/$USER/ICTT17`. |
 | `autostart` | - | Installs autostart scripts. All `.sh` files in `~/.local/share/skills17/autostart/` will get executed on login. By default, it opens `http://localhost` in a browser. |
 | `mysql` | latest | Installs mysql and sets the root password to `''` (empty string). |
-| `nodejs` | 16 | Installs nodejs and npm. |
+| `nodejs` | 18 | Installs nodejs and npm. |
 | `php` | 8.1 | Installs the PHP cli and apache2 mod, as well as composer. |
 | `phpmyadmin` | latest | Installs phpmyadmin with apache2 and configures an auto login. |
 | `system` | - | Performs some system settings, such as disabling the lock screen & screensaver. |
 | `vmware-tools` | - | Installs the VMware tools. |
 | | | |
-| `atom` | latest | [Atom](https://atom.io/). |
 | `chrome` | latest | [Google Chrome](https://www.google.com/chrome/). |
-| `eclipse` | latest | [Eclipse IDE for PHP Developers](https://www.eclipse.org/downloads/packages/release/2021-03/r/eclipse-ide-php-developers). |
 | `gimp` | latest | [GIMP](https://www.gimp.org/). |
 | `phpstorm` | latest | [PhpStorm](https://www.jetbrains.com/phpstorm/). |
 | `postman` | latest | [Postman](https://www.postman.com/). |
-| `sublime` | latest | [Sublime Text](https://www.sublimetext.com/). |
 | `vim` | latest | [VIM](https://www.vim.org/). |
 | `vscode` | latest | [Visual Studio Code](https://code.visualstudio.com/). |
 | `webstorm` | latest | [WebStorm](https://www.jetbrains.com/webstorm/). |
