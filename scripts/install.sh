@@ -35,12 +35,9 @@ install_feature chrome
 # install editors and other ui tools
 install_feature zeal
 install_feature vscode
-install_feature sublime
 install_feature vim
-install_feature atom
 install_feature phpstorm
 install_feature webstorm
-install_feature eclipse
 install_feature gimp
 install_feature postman
 
