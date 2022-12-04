@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # install nodejs
-curl -L https://deb.nodesource.com/setup_16.x | bash -
+curl -L https://deb.nodesource.com/setup_18.x | bash -
 apt-get install --yes nodejs
 
 # install global packages
