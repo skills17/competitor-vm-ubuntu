@@ -1,13 +1,13 @@
 #!/bin/bash
 
-# install apache
+# install apache
 apt-get install --yes apache2
 
 # enable apache modules
 a2enmod cache
 a2enmod headers
 
-# update the configuration
+# update the configuration
 cp -f "$SETUP_DIR/configs/apache/vhost.conf" /etc/apache2/sites-available/000-default.conf
 sed -i "s|<Directory /var/www/>|<Directory $TASKS_DIR/>|g" /etc/apache2/apache2.conf
 sed -i "s|DocumentRoot /var/www/html|DocumentRoot $TASKS_DIR|g" /etc/apache2/sites-available/000-default.conf
