@@ -49,7 +49,7 @@ However, with some small adjustments, they can also be applied to other virtuali
     * Terminal
     * Visual Studio Code (Go to extensions -> search for `@builtin php` and disable `PHP Language Features`)
     * WebStorm
-    * Zeal (Install docset for PHP, MySQL, JavaScript, CSS, HTML)
+    * Zeal (Install docset for PHP, MySQL, JavaScript, CSS, HTML, NodeJS)
 1. If you get asked to set a keyring password, use an empty password. Otherwise, it will always ask for this password after statup when auto-login is enabled.
 
 ## Export
