@@ -18,7 +18,7 @@ However, with some small adjustments, they can also be applied to other virtuali
     * Custom installation
     * Install OS later
     * Ubuntu 64 bit
-    * Memory 8GB, 1 CPU/2 Core
+    * Memory 8GB, 2 CPU/2 Core
     * disable "Accelerate 3D graphics"
 1. Start the Ubuntu installation (default options if not specified)
     * Keyboard layout: `Switzerland - German (Switzerland, no dead keys)`
