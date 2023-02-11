@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=13.0
+Type=Application
+Terminal=false
+Icon[en_US]={WEBSTORM_DIR}/bin/webstorm.png
+Name[en_US]=WebStorm
+Exec={WEBSTORM_DIR}/bin/webstorm.sh
+Name=WebStorm
+Icon={WEBSTORM_DIR}/bin/webstorm.png

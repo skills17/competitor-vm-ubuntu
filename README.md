@@ -2,6 +2,8 @@
 
 Installation instructions to create an Ubuntu VM for competitors.
 
+For ARM specific instructions, see [README_ARM.md](./README_ARM.md).
+
 ## Table of contents
 
 - [Installation](#installation)

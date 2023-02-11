@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=13.0
+Type=Application
+Terminal=false
+Icon[en_US]={PHPSTORM_DIR}/bin/phpstorm.png
+Name[en_US]=PhpStorm
+Exec={PHPSTORM_DIR}/bin/phpstorm.sh
+Name=PhpStorm
+Icon={PHPSTORM_DIR}/bin/phpstorm.png
