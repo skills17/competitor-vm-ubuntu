@@ -7,6 +7,7 @@ if [[ "$(dpkg --print-architecture)" = arm* ]]; then
   PHPSTORM_DIR="/opt/$(ls /opt | grep PhpStorm-)"
   cp "$SETUP_DIR/configs/phpstorm/phpstorm.desktop" /usr/share/applications/phpstorm.desktop
   sed -i "s#{PHPSTORM_DIR}#${PHPSTORM_DIR}#g" /usr/share/applications/phpstorm.desktop
+  rm /tmp/phpstorm.tar.gz
 else
   snap install phpstorm --classic
 fi
