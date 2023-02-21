@@ -52,7 +52,7 @@ However, with some small adjustments, they can also be applied to other virtuali
     * Visual Studio Code (Go to extensions -> search for `@builtin php` and disable `PHP Language Features`)
     * WebStorm
     * Zeal (Install docset for PHP, MySQL, JavaScript, CSS, HTML, NodeJS)
-1. If you get asked to set a keyring password, use an empty password. Otherwise, it will always ask for this password after statup when auto-login is enabled.
+1. If you get asked to set a keyring password, use an empty password. Otherwise, it will always ask for this password after statup when auto-login is enabled. In case it is automatically set to student, open the "Passwords and Keys" application and change the password of the login folder to an empty one.
 
 ## Export
 
