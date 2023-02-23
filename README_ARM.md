@@ -12,4 +12,3 @@ If you get a black screen after the Ubuntu installation, do it again with intern
 ## Setup
 
 - VMware tools cannot be installed yet automatically, use `apt-get install --yes open-vm-tools-desktop` instead and reboot the VM afterwards
-- Postman is [still working](https://github.com/postmanlabs/postman-app-support/issues/5816) on an ARM version, a preview build is shared [here](https://drive.google.com/file/d/1Ufvpra2td1ViKZf0PKz4AN_BrGheRTRa/view) and has to be downloaded manually. However, it doesn't really work yet...
