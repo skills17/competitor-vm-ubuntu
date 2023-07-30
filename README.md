@@ -46,7 +46,7 @@ However, with some small adjustments, they can also be applied to other virtuali
     * Gimp
     * Google Chrome
     * PhpMyAdmin
-    * PhpStorm (Set PHP Language Level to 8.1)
+    * PhpStorm (Set PHP Language Level to 8.2)
     * Postman
     * Terminal
     * Visual Studio Code (Go to extensions -> search for `@builtin php` and disable `PHP Language Features`)
@@ -82,7 +82,7 @@ curl -sSL https://raw.githubusercontent.com/skills17/competitor-vm-ubuntu/master
 | `autostart` | - | Installs autostart scripts. All `.sh` files in `~/.local/share/skills17/autostart/` will get executed on login. By default, it opens `http://localhost` in a browser. |
 | `mysql` | latest | Installs mysql and sets the root password to `''` (empty string). |
 | `nodejs` | 18 | Installs nodejs and npm. |
-| `php` | 8.1 | Installs the PHP cli and apache2 mod, as well as composer. |
+| `php` | 8.2 | Installs the PHP cli and apache2 mod, as well as composer. |
 | `phpmyadmin` | latest | Installs phpmyadmin with apache2 and configures an auto login. |
 | `system` | - | Performs some system settings, such as disabling the lock screen & screensaver. |
 | `vmware-tools` | - | Installs the VMware tools. |
