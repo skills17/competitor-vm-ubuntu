@@ -2,7 +2,7 @@
 
 # install webstorm
 if [[ "$(dpkg --print-architecture)" = arm* ]]; then
-  curl -L -o /tmp/webstorm.tar.gz "https://download.jetbrains.com/webstorm/WebStorm-2022.3.2-aarch64.tar.gz"
+  curl -L -o /tmp/webstorm.tar.gz "https://download.jetbrains.com/webstorm/WebStorm-2023.2-aarch64.tar.gz"
   tar xvf /tmp/webstorm.tar.gz -C /opt
   WEBSTORM_DIR="/opt/$(ls /opt | grep WebStorm-)"
   cp "$SETUP_DIR/configs/webstorm/webstorm.desktop" /usr/share/applications/webstorm.desktop
