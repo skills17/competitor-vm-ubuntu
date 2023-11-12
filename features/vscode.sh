@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# install vscode
+# install vscode
 if [[ "$(dpkg --print-architecture)" = arm* ]]; then
   curl -L -o /tmp/vscode.deb "https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-arm64"
 else

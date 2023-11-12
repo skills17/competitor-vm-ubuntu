@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# install mysql
+# install mysql
 apt-get install --yes mysql-server
 
 # start service (not disableable as the next command depends on it)

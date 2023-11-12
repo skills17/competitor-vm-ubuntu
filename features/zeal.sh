@@ -1,4 +1,4 @@
 #!/bin/bash
 
-# install zeal
+# install zeal
 apt-get install --yes zeal

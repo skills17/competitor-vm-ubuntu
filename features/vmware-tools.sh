@@ -1,4 +1,4 @@
 #!/bin/bash
 
-# install vmware tools
+# install vmware tools
 apt-get install --yes open-vm-tools-desktop
